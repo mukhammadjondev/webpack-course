@@ -1,0 +1,21 @@
+button {
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #cc0000;
+  }
+  &:active {
+    background-color: #990000;
+    transform: translate3d(1px, 1px, 0);
+  }
+}
