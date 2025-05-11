@@ -1,0 +1,26 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --env mode=development",
+    "build": "cross-env NODE_ENV=production webpack --env mode=production",
+    "start": "cross-env NODE_ENV=development webpack serve --env mode=development"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv-webpack": "^7.0.8",
+    "@types/node": "^22.15.17",
+    "@types/webpack": "^5.28.5",
+    "cross-env": "^7.0.3",
+    "dotenv-webpack": "^8.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
